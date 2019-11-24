@@ -1,22 +1,24 @@
 <?php
 function theme_post_types() {
 
-    register_post_type('slider', array(
-        'rewrite' => array('slug' => 'Diaporama'),
+    register_post_type('service', array(
+        'rewrite' => array('slug' => 'services'),
         'public' => true,
-        'supports' => 'title',
+        'supports' => array(),
         'has_archive' => true,
         'taxonomies' => array('category'),
         'labels' => array(
-            'name' => 'Diaporama',
-            'add_new_item' => 'Ajouter une diapositive',
-            'edit_item' => 'Modifier diapositive',
-            'all_items' => 'Toutes les diapositives',
-            'singular_name' => 'Diaporama'
+            'name' => 'Nos Services',
+            'add_new_item' => 'Ajouter un service',
+            'edit_item' => 'Modifier un service',
+            'all_items' => 'Tous nos service',
+            'singular_name' => 'Service'
         ),
-        'menu_icon' => 'dashicons-slides',
+        'menu_icon' => 'dashicons-pressthis',
     ));
-
+    
 }
 
 add_action('init', 'theme_post_types');
+
+?>

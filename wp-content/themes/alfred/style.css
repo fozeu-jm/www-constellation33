@@ -2217,4 +2217,39 @@ p {
     color: #CCCCCC!important;
     color: rgba(204, 204, 204, 0.4);
 }
+.customise{
+    color: white!important;
+    border-bottom:none!important;
+    width: unset!important;
+}
+.palatin-main-menu .classy-navbar .nav-brand #logo1{
+    display: block;
+}
+.palatin-main-menu .classy-navbar .nav-brand #logo2{
+    display: none;
+}
+.is-sticky .palatin-main-menu .classy-navbar .nav-brand #logo1{
+    display: none;
+}
+.is-sticky .palatin-main-menu .classy-navbar .nav-brand #logo2{
+    display: block;
+}
+.classy-navbar-toggler .navbarToggler span{
+    background-color: white;
+}
+.is-sticky .classy-navbar-toggler .navbarToggler span{
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #ff5f5f;
+}
 /*# sourceMappingURL=style.css.map */
