@@ -1,34 +1,7 @@
-/* [Master Stylesheet - v1.0] */
-/* =========== Index of CSS ===========
-:: 1.0 Import Fonts
-:: 2.0 Import All CSS
-:: 3.0 Base CSS
-    :: 3.1.0 Spacing
-    :: 3.2.0 Height
-    :: 3.3.0 Section Padding
-    :: 3.4.0 Section Heading
-    :: 3.5.0 Preloader CSS
-    :: 3.6.0 Miscellaneous
-    :: 3.7.0 ScrollUp
-    :: 3.8.0 Palatin Button
-:: 4.0 Header Area CSS
-:: 5.0 Hero Area CSS
-:: 6.0 Book Now Area CSS
-:: 7.0 About Us Area CSS
-:: 8.0 Pool Area CSS
-:: 9.0 Rooms Area CSS
-:: 10.0 Services Area CSS
-:: 11.0 Our Hotel Area CSS
-:: 12.0 Testimonial Area CSS
-:: 13.0 Footer Area CSS
-:: 14.0 Breadcumb Area CSS
-:: 15.0 Blog Area CSS
-:: 16.0 Contact Area CSS
-:: 17.0 Skills Area CSS
-:: 18.0 Elements Area CSS
-    :: 18.1.0 Single Cool Facts CSS
-    :: 18.2.0 Accordians Area CSS
-    :: 18.3.0 Tabs Area CSS
+/*
+Theme Name: Alfred
+Author: KAIZERWEBDESIGN
+Version: 1.0
 */
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,300,400i,400,700|Poppins:400,500,600,700|Roboto:400,500i,700");
